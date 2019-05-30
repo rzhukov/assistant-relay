@@ -42,7 +42,7 @@ var self = module.exports = {
       }, function(err){
         if(err) return reject(err.message);
         (async() => {
-          console.log(await terminalImage.file('./icon.png'))
+          console.log(await terminalImage.file('./img/logo.png'))
           console.log(`Assistant Relay is now setup and running for${users.map(u => ` ${u}`)} \n`)
           console.log(`You can now visit ${global.db.get("baseUrl").value()} in a browser, or send POST requests to it`);
         })();

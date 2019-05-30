@@ -10,7 +10,7 @@ const startConversation = require('./assistant.js');
 const routes = require('./routes.js');
 const dashboard = require('./dashboard.js');
 const api = require('./api.js');
-const audio = require('./audio.js');
+//const audio = require('./audio.js');
 
 const configureUsers = require('./configuration').configureUsers;
 const setupConfigVar = require('./configuration').setupConfigVar;
@@ -47,7 +47,7 @@ low(adapter)
 	});
 
 	app.use('/', routes);
-	app.use('/audio', audio);
+	//app.use('/audio', audio);
 
 	// Configure users on first run
 	configureUsers()

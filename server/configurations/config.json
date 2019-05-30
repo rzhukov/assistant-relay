@@ -1,5 +1,5 @@
 {
-  "port": "9001",
+  "port": "9000",
   "muteStartup": true,
   "enableQuietHours": false,
   "quietHours": {
@@ -7,7 +7,7 @@
     "end": 25
   },
   "customAddress": false,
-  "baseUrl": "localhost:9001",
+  "baseUrl": "localhost:9000",
   "conversation": {
     "language": "en-US",
     "audio": {
